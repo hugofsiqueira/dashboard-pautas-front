@@ -16,7 +16,7 @@ export class DashboardPautasComponent implements OnInit, OnDestroy {
   pautas: Pauta[] 
   dtOptions: DataTables.Settings = {};
 
-  URL_API: string = 'http://18.229.39.117/pauta-websocket'
+  URL_API: string = 'http://18.229.39.117:8081/pauta-websocket'
 
   public stompClient: CompatClient;
   public msg = [];
